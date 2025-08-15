@@ -42,13 +42,20 @@ def create_app(config_name=None):
     
     app = Flask(__name__)
     
-    # Import config after app creation to avoid circular imports
-    from config import config
-    app.config.from_object(config[config_name])
-    config[config_name].init_app(app)
-    
-    app.secret_key = app.config['SECRET_KEY']
-    CORS(app)
+    try:
+        # Import config after app creation to avoid circular imports
+        from config import config
+        app.config.from_object(config[config_name])
+        config[config_name].init_app(app)
+        
+        app.secret_key = app.config['SECRET_KEY']
+        CORS(app)
+        
+    except Exception as e:
+        # Fallback configuration if config loading fails
+        app.secret_key = os.getenv('SECRET_KEY', 'fallback-secret-key')
+        CORS(app)
+        print(f"Warning: Config loading failed, using fallback: {e}")
     
     return app
 
@@ -521,13 +528,28 @@ class EggCreator:
         except Exception as e:
             logger.error(f"Error updating egg status: {e}")
 
-# Initialize egg creator
-egg_creator = EggCreator()
+# Initialize egg creator - will be created when needed
+egg_creator = None
+
+def get_egg_creator():
+    global egg_creator
+    if egg_creator is None:
+        egg_creator = EggCreator()
+    return egg_creator
 
 @app.route('/')
 @login_required
 def index():
     return render_template('index.html')
+
+@app.route('/health')
+def health_check():
+    """Health check endpoint for deployment verification"""
+    return jsonify({
+        "status": "healthy",
+        "message": "Hatch website is running!",
+        "timestamp": datetime.now().isoformat()
+    })
 
 @app.route('/api/create-egg', methods=['POST'])
 @login_required
@@ -544,7 +566,7 @@ def create_egg():
                 "message": "Description and descriptors are required"
             }), 400
         
-        result = egg_creator.create_egg_from_metadata(description, descriptors)
+        result = get_egg_creator().create_egg_from_metadata(description, descriptors)
         return jsonify(result)
         
     except Exception as e:
@@ -580,7 +602,7 @@ def analyze_image():
                 }), 400
             
             logger.info(f"Processing image: {image_file.filename}")
-            result = egg_creator.analyze_image_to_metadata(image_file)
+            result = get_egg_creator().analyze_image_to_metadata(image_file)
             
         else:
             # Handle JSON data (for base64 images)
@@ -598,7 +620,7 @@ def analyze_image():
                     "message": "No image_data in request"
                 }), 400
             
-            result = egg_creator.analyze_image_to_metadata(image_data)
+            result = get_egg_creator().analyze_image_to_metadata(image_data)
         
         return jsonify(result)
         
@@ -719,7 +741,7 @@ def hatch_creature():
             }), 404
         
         # Generate creature using the egg creator
-        result = egg_creator.create_creature_from_egg(egg, care_responses)
+        result = get_egg_creator().create_creature_from_egg(egg, care_responses)
         return jsonify(result)
         
     except Exception as e:
@@ -759,4 +781,5 @@ def serve_image(filename):
         return jsonify({"error": "Failed to serve image"}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001) 
+    port = int(os.environ.get('PORT', 5001))
+    app.run(debug=True, host='0.0.0.0', port=port) 
