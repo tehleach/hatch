@@ -1,0 +1,416 @@
+[
+  {
+    "id": "83a345b5-8094-4f05-9998-7882c4440b57",
+    "egg_id": "6bd0efe3-c287-4e3d-af08-460487bf30e9",
+    "image_url": "/static/images/creature_186cd609-070c-401b-96bb-19efce3914be.png",
+    "sound_text": "sparkle",
+    "sound_name": "sparkle_sound",
+    "voice_description": "The baby creature's voice is high-pitched and slow, exuding a sleepy and whimsical emotion with a soft, melodic quality, akin to a gentle lullaby played on a harp.",
+    "audio_url": null,
+    "care_responses": {
+      "comfort": "i play the harp for it"
+    },
+    "hatched_at": "2025-08-02T16:52:54.442655",
+    "egg_traits": [
+      "natural",
+      "organic",
+      "playful",
+      "verdant",
+      "cozy",
+      "bright",
+      "whimsical"
+    ],
+    "egg_description": "The egg features a delicate pattern of intertwining vines and leaves cascading down its surface, adorned with various shades of green. A soft overlay of shadow mimics the gentle illumination from a bright window beyond. Elements reminiscent of a whimsical skull motif are abstractly interpreted through subtle, faded lines and floral accents, adding a playful touch to its organic theme. The background is a neutral, soft tan to represent a cozy, natural environment, while subtle hints of light gray depict streaming light filtering gently through the foliage."
+  },
+  {
+    "id": "15404ed4-c6a3-4464-bd86-8efbda7f10f4",
+    "egg_id": "9ba63167-f4b4-46fe-a0ac-c49fb6b2ca55",
+    "image_url": "/static/images/creature_a8c21288-cf21-4bde-8e87-b803abc92271.png",
+    "sound_text": "sparkle",
+    "sound_name": "sparkle_sound",
+    "voice_description": "The baby creature's voice is high-pitched and melodic, with a slow, playful cadence that conveys a sense of happiness and warmth. Its soft, gentle hums sound organic and natural, inviting listeners into its sunlit, verdant world.",
+    "audio_url": null,
+    "care_responses": {
+      "favorite_thing": "it hums when it is happy"
+    },
+    "hatched_at": "2025-08-02T16:58:19.728380",
+    "egg_traits": [
+      "sunlit",
+      "verdant",
+      "organic",
+      "playful",
+      "textured",
+      "warm",
+      "natural"
+    ],
+    "egg_description": "The egg features a soft, matte surface with a gentle, mossy green hue reminiscent of sun-dappled foliage. Small, irregular patches of a slightly darker green suggest the intricate shadows of hanging vines. A delicate pattern of translucent zigzags and circles mimic the play of light and reflections from a sunlit window. Accents of muted brown and yellow add depth, evoking the warmth of sunrays filtering through leafy branches. Tiny flecks of off-white form abstract shapes, like whimsical motifs that hint at natural growths."
+  },
+  {
+    "id": "cdfaca96-b243-4726-b876-4ed53a24fe56",
+    "name": "Vyrindel",
+    "egg_id": "804feecf-b65a-45f3-9f12-eb3f71ef5c1a",
+    "image_url": "/static/images/creature_3527b34b-a6a0-4909-856e-d48e2d2f4ba3.png",
+    "sound_text": "mur",
+    "sound_name": "mur_sound",
+    "voice_description": "The baby creature's voice is high-pitched and slow, exuding a curious and sleepy emotion with a soft, melodic quality that echoes the tranquil and cozy atmosphere of its natural surroundings.",
+    "audio_url": "/static/audio/creature_sound_cdfaca96-b243-4726-b876-4ed53a24fe56.mp3",
+    "care_responses": {
+      "time_spent": "I spent every day with it."
+    },
+    "hatched_at": "2025-08-02T17:08:02.076150",
+    "egg_traits": [
+      "greenery",
+      "vines",
+      "natural light",
+      "skull motif",
+      "tranquil",
+      "cozy",
+      "organic patterns",
+      "mushrooms"
+    ],
+    "egg_description": "The egg is delicately designed with a base of lush green shades reminiscent of a vibrant spring landscape seen through a window. It features intricate vine patterns that wrap around in a graceful, cascading manner. The top of the egg is adorned with light, curtain-like drapes with subtle folds, giving a gentle and airy feel. A subtle skull motif, stylized and abstract, appears on one side, echoing an overlay, with muted colors that blend seamlessly into the background. Soft mushroom motifs are etched into the design, adding to the earthy, organic aesthetic. The overall texture is smooth but with embossed elements, creating a sense of depth and shadow play."
+  },
+  {
+    "id": "b2d30130-0747-47bc-bfc3-ad51f8f6ab76",
+    "name": "Sylvune",
+    "egg_id": "cc281f74-fe11-4e63-82b3-ca3564bb8629",
+    "image_url": "/static/images/creature_4635fdc9-638e-4e03-a177-a22112e8b72a.png",
+    "sound_text": "chirp",
+    "sound_name": "chirp_sound",
+    "voice_description": "The baby creature's voice would have a high pitch with a slow speed, conveying a curious and whimsical emotion. Its quality would be soft and melodic, akin to a gentle breeze rustling through lush greenery.",
+    "audio_url": "/static/audio/creature_sound_b2d30130-0747-47bc-bfc3-ad51f8f6ab76.mp3",
+    "care_responses": {
+      "favorite_thing": "the skull is strange and eternal"
+    },
+    "hatched_at": "2025-08-02T17:15:49.523944",
+    "egg_traits": [
+      "lush greenery",
+      "sunlit",
+      "vines",
+      "nature-inspired",
+      "whimsical",
+      "soft contrast",
+      "artistic decor"
+    ],
+    "egg_description": "The egg features a soft, mossy green base, representing the lush greenery seen through the window. Delicate vines wrap around its surface, intertwining with small, light-catching glass pieces that reflect the outdoor sunshine. The top half of the egg has subtle shadow effects, emulating the gentle contrast of indoor and outdoor light. A skull design with artistic floral details is etched lightly on one side, mimicking the whimsical hanging decor. The texture is smooth with slight raised areas for the designs, creating a natural yet artistic feel."
+  },
+  {
+    "id": "baa99887-f80c-470f-bd7b-d67efd48c129",
+    "name": "Snorflelo",
+    "egg_id": "cb5270ba-c8bd-41db-9047-9811f7693c72",
+    "image_url": "/static/images/creature_58ba21fa-8d3e-4c49-8039-966df6347954.png",
+    "sound_text": "meeiiii",
+    "sound_name": "meeiiii_sound",
+    "voice_description": "The baby creature's voice is high-pitched and fast, conveying an excitable and curious emotion. It is soft and melodic, with playful tones reminiscent of gentle snorts and sparse, bubbly vibrations.",
+    "audio_url": "/static/audio/creature_sound_baa99887-f80c-470f-bd7b-d67efd48c129.mp3",
+    "care_responses": {
+      "sounds": "snorts and farts"
+    },
+    "hatched_at": "2025-08-02T17:23:16.119772",
+    "egg_traits": [
+      "monochrome",
+      "sleek",
+      "textured",
+      "contrasting",
+      "elegant",
+      "vibrant accents",
+      "soft transitions"
+    ],
+    "egg_description": "The egg is designed with a sleek black and white color palette. The top half features a glossy, deep black hue reminiscent of a tuxedo, smooth and uninterrupted. The lower half is a bright, matte white with subtle fur-like textures, adding depth and softness. A series of blue and pink splatters accentuates the bottom, evoking the vibrant patterns found on a carpet beside a wooden floor. Delicate transitions between the colors echo the gentle blending like a shadow cast on a light surface."
+  },
+  {
+    "id": "b4e972cd-52d4-40b1-9474-cddffa83d62c",
+    "name": "Aurix",
+    "egg_id": "test-egg-for-hatch-later-12345",
+    "image_url": "/static/images/creature_45a865ac-ee98-4422-a12a-88395d96daec.png",
+    "sound_text": "mur",
+    "sound_name": "mur_sound",
+    "voice_description": "The baby creature's voice is high-pitched and slow, exuding a curious and ethereal emotion. Its quality is soft and melodic, akin to a gentle lullaby that sparkles with mystical undertones.",
+    "audio_url": "/static/audio/creature_sound_b4e972cd-52d4-40b1-9474-cddffa83d62c.mp3",
+    "care_responses": {
+      "comfort": "shake it"
+    },
+    "hatched_at": "2025-08-02T17:31:18.004136",
+    "egg_traits": [
+      "crystalline",
+      "aurora",
+      "ethereal",
+      "cosmic",
+      "mystical",
+      "sparkling",
+      "ancient"
+    ],
+    "egg_description": "A mystical crystal egg with swirling aurora patterns that pulse with inner light. The surface shimmers with ethereal colors that shift between deep purples, electric blues, and soft pinks. Tiny star-like sparkles dance across its surface, creating a mesmerizing display of cosmic energy. The egg seems to hum with ancient magic, as if it contains the essence of a celestial being waiting to emerge."
+  },
+  {
+    "id": "03031762-edff-4e46-ac1b-db8bb036b636",
+    "name": "Vibrugi",
+    "egg_id": "17e529ee-d634-4c1a-96c4-cc40d8e5c4ca",
+    "image_url": "/static/images/creature_f365a444-a1c1-462a-a06a-e0f838dfe46a.png",
+    "sound_text": "floop",
+    "sound_name": "floop_sound",
+    "voice_description": "The baby creature's voice is high-pitched and slow, with an excited and curious tone. It has a melodic and whispery quality, reflecting its harmonious and sophisticated nature.",
+    "audio_url": "/static/audio/creature_sound_03031762-edff-4e46-ac1b-db8bb036b636.mp3",
+    "care_responses": {
+      "whispers": "bulgolgi"
+    },
+    "hatched_at": "2025-08-02T17:34:39.899918",
+    "egg_traits": [
+      "modern",
+      "vibrant",
+      "culinary",
+      "elegant",
+      "reflective",
+      "harmonious",
+      "sophisticated",
+      "colorful"
+    ],
+    "egg_description": "The egg is a harmonious blend of subtle textures and bold colors. Its surface is smooth and glossy, mimicking the shiny countertops. The base hue is a deep black, reminiscent of the sleek tables, with scattered patches of vibrant red and orange, inspired by the sizzling barbecue and spicy dishes. Soft white speckles across the black surface capture the minimalist decor seen in the room\u2019s interior. Touches of green, purple, and gold detail the egg, taking cues from the fresh salads and beverages on the table, adding a lively yet sophisticated feel. A subtle reflection on the egg hints at the polished reflections seen in the room."
+  },
+  {
+    "id": "ef969d28-746d-4107-bb47-a89b54f20973",
+    "name": "Glintix",
+    "egg_id": "b0b92a31-dcd8-4905-9747-2e8da3fdd038",
+    "image_url": "/static/images/creature_e3e1caab-e9fd-4c1d-9473-2ab74ae312b8.png",
+    "sound_text": "purr",
+    "sound_name": "purr_sound",
+    "voice_description": "The baby creature's voice is high-pitched and fast, carrying an excited and curious emotion, with a melodic yet slightly whispery quality, reminiscent of the shimmering sound of ice clinking delicately in a glass.",
+    "audio_url": "/static/audio/creature_sound_ef969d28-746d-4107-bb47-a89b54f20973.mp3",
+    "care_responses": {
+      "sounds": "Ice clinking in a glass"
+    },
+    "hatched_at": "2025-08-02T17:41:14.123015",
+    "egg_traits": [
+      "neon",
+      "vibrant",
+      "electric",
+      "palm-inspired",
+      "nightlife",
+      "dynamic",
+      "reflective",
+      "futuristic"
+    ],
+    "egg_description": "Imagine an egg emblematic of a vivacious night scene, adorned with vibrant neon hues of fuchsia, cyan, and electric blue. Its surface is smooth, with spirited zigzag patterns reminiscent of palm fronds and mesmerizing reflections hinting at an illuminated sky. Sprinkles of abstract floral and botanical motifs in vivid greens and purples accentuate its lively character. The egg is a celebration of nightlife enchantment, encasing a radiant glow from within, offering a captivating and dynamic aesthetic."
+  },
+  {
+    "id": "4e3cb925-8c52-4ef6-b8a6-fae0657ab5bb",
+    "name": "Jumbli",
+    "egg_id": "bb505af0-c862-494d-8ed9-91787c2f9617",
+    "image_url": "/static/images/creature_aed11f0d-8a22-4b0b-b3d8-9c3838d4c86e.png",
+    "sound_text": "sparkle",
+    "sound_name": "sparkle_sound",
+    "voice_description": "The baby creature's voice would be high-pitched and melodic, with a gentle, playful speed that conveys a sense of curiosity and joy. Its sound would be soft and whimsical, capturing an inviting and expressive quality.",
+    "audio_url": "/static/audio/creature_sound_4e3cb925-8c52-4ef6-b8a6-fae0657ab5bb.mp3",
+    "care_responses": {
+      "activities": "Juggle, volleyball, throw it"
+    },
+    "hatched_at": "2025-08-02T17:44:12.588147",
+    "egg_traits": [
+      "Warm",
+      "Cozy",
+      "Textured",
+      "Expressive",
+      "Soft",
+      "Inviting",
+      "Whimsical"
+    ],
+    "egg_description": "The egg showcases a gentle gradient of warm ochre to soft cream, mirroring the cozy ambiance. Delicate darker brown swirl patterns ripple across the surface, mimicking the intricate fur textures from the image. The sheen of the egg has a subtle matte, velvety finish, capturing the softness and tactile appeal reminiscent of a cat's fur. Small speckles of deeper amber accentuate the egg\u2019s surface, echoing the expressive eyes, while a hint of muted green around the base reflects the serene backdrop of a quiet room bathed in natural light."
+  },
+  {
+    "id": "dd423e99-1921-489b-90b7-28e714993cb4",
+    "name": "Zyntra",
+    "egg_id": "53a99927-8ca0-4e42-855d-7586fb99c2cf",
+    "image_url": "/static/images/creature_9a25a2f2-b1ad-4888-aeb1-29a3b232c06d.png",
+    "sound_text": "chirp",
+    "sound_name": "chirp_sound",
+    "voice_description": "The baby creature's voice is high-pitched and fast, conveying a sense of excitement and curiosity. Its sound is melodic and lively, with a whispery undertone that hints at playful energy.",
+    "audio_url": "/static/audio/creature_sound_dd423e99-1921-489b-90b7-28e714993cb4.mp3",
+    "care_responses": {
+      "whispers": "Let it rip"
+    },
+    "hatched_at": "2025-08-02T17:46:08.166952",
+    "egg_traits": [
+      "vibrant",
+      "dynamic",
+      "musical",
+      "energetic",
+      "colorful",
+      "theatrical",
+      "lively"
+    ],
+    "egg_description": "The egg features a vibrant, dynamic palette, reminiscent of a lively concert stage. The base is a deep, rich black, signifying the dimly lit ambiance of a music venue. Splashes of vivid red and orange sweep across the surface, capturing the intensity of stage lights. Intricate patterns of swirling lines and symbols in blues and whites mimic the energetic backdrop and musical elements. Hints of gold accentuate the edges, reflecting the ornate theater details."
+  },
+  {
+    "id": "be4833b3-156c-4cdf-a663-b934ad502d53",
+    "name": "Unknown",
+    "egg_id": "1881c5ae-b29c-474c-9c58-85fb64eeb5bc",
+    "image_url": "/static/images/creature_3659b47b-c369-43e6-b1b7-9c2eeb778043.png",
+    "sound_text": "zorp",
+    "sound_name": "zorp_sound",
+    "voice_description": "The baby creature's voice is high-pitched and slow, with a sleepy yet content emotion, characterized by a soft and melodic quality that resembles a gentle, sunlit purr.",
+    "audio_url": "/static/audio/creature_sound_be4833b3-156c-4cdf-a663-b934ad502d53.mp3",
+    "care_responses": {
+      "sounds": "it purrs when the sun hits it"
+    },
+    "hatched_at": "2025-08-15T16:06:06.393150",
+    "egg_traits": [
+      "serene",
+      "organic",
+      "airy",
+      "sunlit",
+      "natural",
+      "tranquil",
+      "botanical"
+    ],
+    "egg_description": "The egg is a pale, matte cream color, reminiscent of early morning sunlight streaming through a window. Delicate, vine-like patterns in soft greens wrap around the egg, mirroring the play of light and shadow from overhanging plants. The top of the egg features a subtle shimmering effect, evoking the texture of glass capturing sunlight. Small dark patches scattered across its surface resemble leaves or shadows, adding depth and intrigue. A thin band of translucent material encircles the egg, symbolizing the clear sky seen beyond the window's panes."
+  },
+  {
+    "id": "ab29d69f-acfa-4b79-a4e0-67e1dd2e2015",
+    "name": "Unknown",
+    "egg_id": "b2a5401f-82b3-4485-ad67-8899cbb0b037",
+    "image_url": "/static/images/creature_8b269cf5-2dfc-422e-9c60-6a4db1014524.png",
+    "sound_text": "yip",
+    "sound_name": "yip_sound",
+    "voice_description": "The baby creature's voice is high-pitched and playful, with a melodic and whimsical tone that carries an excited and curious emotion, delivered at a moderately fast pace. It has a soft, gentle quality akin to rustling leaves in a serene glade.",
+    "audio_url": "/static/audio/creature_sound_ab29d69f-acfa-4b79-a4e0-67e1dd2e2015.mp3",
+    "care_responses": {
+      "comfort": "I shake it up!"
+    },
+    "hatched_at": "2025-08-15T16:11:33.297571",
+    "egg_traits": [
+      "greenery",
+      "serenity",
+      "natural light",
+      "earthy",
+      "playful patterns",
+      "whimsical",
+      "vines",
+      "cozy"
+    ],
+    "egg_description": "The egg is an artistic representation echoing a serene and natural aesthetic. Its surface is a soft, pastel green reminiscent of lush foliage, speckled with delicate, vine-like patterns that wrap gracefully around its form. The texture is glossy yet subtly embossed, capturing light playfully like morning sunlight streaming through leaves. Small, abstract shapes in muted browns and whites resemble mushrooms, adding an earthy charm. A whimsical touch is provided by the faint outline of a skull nestled among the vines, incorporating elements of surprise and curiosity into the design."
+  },
+  {
+    "id": "e20f4c51-a9ea-4af5-bf01-fbb0fae9b686",
+    "name": "Unknown",
+    "egg_id": "a5a7fe58-515f-47ea-ba51-213af7fdf0f2",
+    "image_url": "/static/images/creature_b21525a4-cdab-429d-9b80-c29b2cdef9b8.png",
+    "sound_text": "zorp",
+    "sound_name": "zorp_sound",
+    "voice_description": "The baby creature's voice would be high-pitched and slow, exuding a sleepy yet curious emotion with a soft and melodic quality.",
+    "audio_url": "/static/audio/creature_sound_e20f4c51-a9ea-4af5-bf01-fbb0fae9b686.mp3",
+    "care_responses": {
+      "time_spent": "a passing moment here and there"
+    },
+    "hatched_at": "2025-08-15T16:20:11.781481",
+    "egg_traits": [
+      "verdant",
+      "sunlit",
+      "cozy",
+      "natural",
+      "serene",
+      "patterned",
+      "earthy",
+      "intricate"
+    ],
+    "egg_description": "The egg is adorned with a soft, muted green base, reflecting the verdant lushness of hanging plants. It features delicate vines etched across its surface, weaving intricate patterns reminiscent of climbing foliage. Small accents of gentle sunlight yellow shimmer through, evoking the feel of sunlight filtering through leaves. Along its midsection, there\u2019s a subtle, translucent window-like segment that captures the essence of peering through a bright, sunlit window, surrounded by an aura of calming shadows and soft browns, echoing the cozy atmosphere present in the image."
+  },
+  {
+    "id": "20e4a09f-70b2-40ca-9a29-886852abf314",
+    "name": "Leafy Lumifawn",
+    "egg_id": "ca5ac01e-ed56-4e0d-a8ca-eeba351622ff",
+    "image_url": "/static/images/creature_b97f2bb5-c246-4126-9b68-5925195b4180.png",
+    "sound_text": "grwar",
+    "sound_name": "grwar_sound",
+    "voice_description": "The baby creature's voice is high-pitched and slow, exuding a curious and happy emotion with a melodic and soft quality, reminiscent of a gentle lullaby born from a mystical forest.",
+    "audio_url": "/static/audio/creature_sound_20e4a09f-70b2-40ca-9a29-886852abf314.mp3",
+    "care_responses": {
+      "feelings": "harmonious"
+    },
+    "hatched_at": "2025-08-15T16:24:34.022576",
+    "egg_traits": [
+      "natural",
+      "serene",
+      "whimsical",
+      "organic",
+      "leafy",
+      "mystical",
+      "warm",
+      "inviting"
+    ],
+    "egg_description": "The egg is a harmonious blend of natural and whimsical elements. It features a predominantly soft green hue reminiscent of fresh foliage, with subtle textures suggesting the veined patterns of leaves. Interwoven across its surface are dark, winding tendrils resembling trailing vines, adding a sense of organic movement. Light dapples the egg, suggesting sunlight filtering through a canopy, creating a warm, inviting glow. A playful element is present in the form of small, stylized mushroom motifs, their caps dotted with earthy tones. A whimsical skull design is subtly integrated, adding a mysterious charm. The overall effect is tranquil yet intriguing, celebrating the fusion of nature and fantasy."
+  },
+  {
+    "id": "633cd496-87e3-4593-a665-69b63037d07e",
+    "name": "Solisprout",
+    "egg_id": "188438f1-225e-44bf-b605-e8ca2ffb33e8",
+    "image_url": "/static/images/creature_a3e61ec3-6a4e-4688-a883-a5c6b8a66b2d.png",
+    "sound_text": "waddle",
+    "sound_name": "waddle_sound",
+    "voice_description": "The baby creature's voice is high-pitched and slow, exuding a serene and curious emotion with a soft, melodic quality. It sounds as if it's whispering secrets of the forest, filled with wonder and tranquility.",
+    "audio_url": "/static/audio/creature_sound_633cd496-87e3-4593-a665-69b63037d07e.mp3",
+    "care_responses": {
+      "favorite_spot": "under the skull decorations"
+    },
+    "hatched_at": "2025-08-15T16:27:50.382666",
+    "egg_traits": [
+      "sunlit",
+      "earthy",
+      "serene",
+      "natural",
+      "whimsical",
+      "leafy",
+      "eclectic",
+      "tranquil"
+    ],
+    "egg_description": "The egg embodies a serene yet eclectic ambiance, capturing the essence of a sunlit room. It features a smooth, matte surface painted in soft, earthy tones of sage green and creamy white, reflecting the leafy vines and gentle light filtering through a large window. Scattered across its surface are delicate, embossed patterns of hanging plants and whimsical skull motifs in muted greys, echoing the intriguing blend of natural and quirky elements. Its glossy finish adds a touch of elegance, resembling the glistening effect of sunlight on leaves."
+  },
+  {
+    "id": "16a5d0e3-e7d7-4d2e-a0d7-7b6c344f44ea",
+    "name": "Snortleclump",
+    "egg_id": "63bc9d22-7839-4b46-8259-e968844adca1",
+    "image_url": "/static/images/creature_63042160-2359-44ff-b325-a4f4703c919a.png",
+    "sound_text": "keekee",
+    "sound_name": "keekee_sound",
+    "voice_description": "The baby creature's voice is high-pitched and slow, carrying a curious and playful emotion, with a soft, melodic quality reminiscent of gentle trills and subtle coos.",
+    "audio_url": "/static/audio/creature_sound_16a5d0e3-e7d7-4d2e-a0d7-7b6c344f44ea.mp3",
+    "care_responses": {
+      "sounds": "snorts and farts"
+    },
+    "hatched_at": "2025-08-15T16:30:58.998368",
+    "egg_traits": [
+      "contrasting",
+      "elegant",
+      "monochrome",
+      "textured",
+      "refined",
+      "playful",
+      "composed",
+      "cozy"
+    ],
+    "egg_description": "The egg features a sleek, glossy surface combining jet black with patches of stark white, mirroring the smooth contrast seen in a tuxedo-like pattern. Dappled with subtle gray undertones that hint at the texture of short, fine fur, it has a refined finish. The egg's form is interrupted by soft, curving ridges, reminiscent of a gentle brow's furrow. It rests on a base mimicking colorful, vintage rug patterns, incorporating hints of navy blue and soft pink, intertwined in delicate floral motifs that evoke warmth and comfort."
+  },
+  {
+    "id": "d7645989-f1ae-4111-9bcd-f6d1b9e50e72",
+    "name": "Snortli",
+    "egg_id": "07d5bc43-a785-48c0-b0ac-12365aa3d7a7",
+    "image_url": "/static/images/creature_12a8df26-78da-4a06-ac03-79db677405a6.png",
+    "sound_text": "snuffle",
+    "sound_name": "snuffle_sound",
+    "voice_description": "The baby creature's voice is high-pitched and slow, exuding a curious and playful emotion with a melodic and whimsical quality reminiscent of a gentle snortle.",
+    "audio_url": "/static/audio/creature_sound_d7645989-f1ae-4111-9bcd-f6d1b9e50e72.mp3",
+    "care_responses": {
+      "sounds": "snortle"
+    },
+    "hatched_at": "2025-08-15T16:36:02.988813",
+    "egg_traits": [
+      "monochrome",
+      "elegant",
+      "textured",
+      "whimsical",
+      "vintage",
+      "contrast",
+      "playful"
+    ],
+    "egg_description": "The egg features a smooth, glossy surface with a striking black and white pattern reminiscent of a tuxedo. The black wraps around the lower half of the egg, while the top is predominantly white, accented with subtle, irregular black markings that mimic the texture of short fur. The egg has a slight sheen, hinting at a silky texture. Surrounding the central pattern are muted shades of cream and light grey, interspersed with small, abstract splashes of pink and blue, emulating the intricate patterns found in a vintage rug. The overall appearance is both elegant and whimsically textured, capturing a balance of simplicity and sophistication."
+  }
+]

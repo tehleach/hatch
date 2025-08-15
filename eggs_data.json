@@ -1,0 +1,335 @@
+[
+  {
+    "id": "6bd0efe3-c287-4e3d-af08-460487bf30e9",
+    "description": "The egg features a delicate pattern of intertwining vines and leaves cascading down its surface, adorned with various shades of green. A soft overlay of shadow mimics the gentle illumination from a bright window beyond. Elements reminiscent of a whimsical skull motif are abstractly interpreted through subtle, faded lines and floral accents, adding a playful touch to its organic theme. The background is a neutral, soft tan to represent a cozy, natural environment, while subtle hints of light gray depict streaming light filtering gently through the foliage.",
+    "descriptors": [
+      "natural",
+      "organic",
+      "playful",
+      "verdant",
+      "cozy",
+      "bright",
+      "whimsical"
+    ],
+    "image_url": "/static/images/egg_74bccdc8-cf4d-41b1-b029-521ecf0d903a.png",
+    "created_at": "2025-08-02T16:52:07.703574",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "9ba63167-f4b4-46fe-a0ac-c49fb6b2ca55",
+    "description": "The egg features a soft, matte surface with a gentle, mossy green hue reminiscent of sun-dappled foliage. Small, irregular patches of a slightly darker green suggest the intricate shadows of hanging vines. A delicate pattern of translucent zigzags and circles mimic the play of light and reflections from a sunlit window. Accents of muted brown and yellow add depth, evoking the warmth of sunrays filtering through leafy branches. Tiny flecks of off-white form abstract shapes, like whimsical motifs that hint at natural growths.",
+    "descriptors": [
+      "sunlit",
+      "verdant",
+      "organic",
+      "playful",
+      "textured",
+      "warm",
+      "natural"
+    ],
+    "image_url": "/static/images/egg_15566436-53c4-4637-a442-77e7ae70c598.png",
+    "created_at": "2025-08-02T16:57:33.455585",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "804feecf-b65a-45f3-9f12-eb3f71ef5c1a",
+    "description": "The egg is delicately designed with a base of lush green shades reminiscent of a vibrant spring landscape seen through a window. It features intricate vine patterns that wrap around in a graceful, cascading manner. The top of the egg is adorned with light, curtain-like drapes with subtle folds, giving a gentle and airy feel. A subtle skull motif, stylized and abstract, appears on one side, echoing an overlay, with muted colors that blend seamlessly into the background. Soft mushroom motifs are etched into the design, adding to the earthy, organic aesthetic. The overall texture is smooth but with embossed elements, creating a sense of depth and shadow play.",
+    "descriptors": [
+      "greenery",
+      "vines",
+      "natural light",
+      "skull motif",
+      "tranquil",
+      "cozy",
+      "organic patterns",
+      "mushrooms"
+    ],
+    "image_url": "/static/images/egg_f4724598-d737-4836-b289-be21bef86a60.png",
+    "created_at": "2025-08-02T17:06:52.919373",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "cc281f74-fe11-4e63-82b3-ca3564bb8629",
+    "description": "The egg features a soft, mossy green base, representing the lush greenery seen through the window. Delicate vines wrap around its surface, intertwining with small, light-catching glass pieces that reflect the outdoor sunshine. The top half of the egg has subtle shadow effects, emulating the gentle contrast of indoor and outdoor light. A skull design with artistic floral details is etched lightly on one side, mimicking the whimsical hanging decor. The texture is smooth with slight raised areas for the designs, creating a natural yet artistic feel.",
+    "descriptors": [
+      "lush greenery",
+      "sunlit",
+      "vines",
+      "nature-inspired",
+      "whimsical",
+      "soft contrast",
+      "artistic decor"
+    ],
+    "image_url": "/static/images/egg_312124db-f720-4104-bec8-bc301ab42dc7.png",
+    "created_at": "2025-08-02T17:14:50.163010",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "cb5270ba-c8bd-41db-9047-9811f7693c72",
+    "description": "The egg is designed with a sleek black and white color palette. The top half features a glossy, deep black hue reminiscent of a tuxedo, smooth and uninterrupted. The lower half is a bright, matte white with subtle fur-like textures, adding depth and softness. A series of blue and pink splatters accentuates the bottom, evoking the vibrant patterns found on a carpet beside a wooden floor. Delicate transitions between the colors echo the gentle blending like a shadow cast on a light surface.",
+    "descriptors": [
+      "monochrome",
+      "sleek",
+      "textured",
+      "contrasting",
+      "elegant",
+      "vibrant accents",
+      "soft transitions"
+    ],
+    "image_url": "/static/images/egg_6c8775d2-555f-479a-88d6-9dc8189abcda.png",
+    "created_at": "2025-08-02T17:22:27.893274",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "test-egg-for-hatch-later-12345",
+    "description": "A mystical crystal egg with swirling aurora patterns that pulse with inner light. The surface shimmers with ethereal colors that shift between deep purples, electric blues, and soft pinks. Tiny star-like sparkles dance across its surface, creating a mesmerizing display of cosmic energy. The egg seems to hum with ancient magic, as if it contains the essence of a celestial being waiting to emerge.",
+    "descriptors": [
+      "crystalline",
+      "aurora",
+      "ethereal",
+      "cosmic",
+      "mystical",
+      "sparkling",
+      "ancient"
+    ],
+    "image_url": "/static/images/egg_6c8775d2-555f-479a-88d6-9dc8189abcda.png",
+    "created_at": "2025-08-02T18:00:00.000000",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "17e529ee-d634-4c1a-96c4-cc40d8e5c4ca",
+    "description": "The egg is a harmonious blend of subtle textures and bold colors. Its surface is smooth and glossy, mimicking the shiny countertops. The base hue is a deep black, reminiscent of the sleek tables, with scattered patches of vibrant red and orange, inspired by the sizzling barbecue and spicy dishes. Soft white speckles across the black surface capture the minimalist decor seen in the room\u2019s interior. Touches of green, purple, and gold detail the egg, taking cues from the fresh salads and beverages on the table, adding a lively yet sophisticated feel. A subtle reflection on the egg hints at the polished reflections seen in the room.",
+    "descriptors": [
+      "modern",
+      "vibrant",
+      "culinary",
+      "elegant",
+      "reflective",
+      "harmonious",
+      "sophisticated",
+      "colorful"
+    ],
+    "image_url": "/static/images/egg_5cbfc386-8c9d-4ddd-b726-11967411a6ce.png",
+    "created_at": "2025-08-02T17:33:22.468783",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "b0b92a31-dcd8-4905-9747-2e8da3fdd038",
+    "description": "Imagine an egg emblematic of a vivacious night scene, adorned with vibrant neon hues of fuchsia, cyan, and electric blue. Its surface is smooth, with spirited zigzag patterns reminiscent of palm fronds and mesmerizing reflections hinting at an illuminated sky. Sprinkles of abstract floral and botanical motifs in vivid greens and purples accentuate its lively character. The egg is a celebration of nightlife enchantment, encasing a radiant glow from within, offering a captivating and dynamic aesthetic.",
+    "descriptors": [
+      "neon",
+      "vibrant",
+      "electric",
+      "palm-inspired",
+      "nightlife",
+      "dynamic",
+      "reflective",
+      "futuristic"
+    ],
+    "image_url": "/static/images/egg_72af46ad-94a2-45ed-a689-388e4351c665.png",
+    "created_at": "2025-08-02T17:39:43.367058",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "bb505af0-c862-494d-8ed9-91787c2f9617",
+    "description": "The egg showcases a gentle gradient of warm ochre to soft cream, mirroring the cozy ambiance. Delicate darker brown swirl patterns ripple across the surface, mimicking the intricate fur textures from the image. The sheen of the egg has a subtle matte, velvety finish, capturing the softness and tactile appeal reminiscent of a cat's fur. Small speckles of deeper amber accentuate the egg\u2019s surface, echoing the expressive eyes, while a hint of muted green around the base reflects the serene backdrop of a quiet room bathed in natural light.",
+    "descriptors": [
+      "Warm",
+      "Cozy",
+      "Textured",
+      "Expressive",
+      "Soft",
+      "Inviting",
+      "Whimsical"
+    ],
+    "image_url": "/static/images/egg_7e8f182d-edc0-4d71-a34b-398107484481.png",
+    "created_at": "2025-08-02T17:42:55.635097",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "53a99927-8ca0-4e42-855d-7586fb99c2cf",
+    "description": "The egg features a vibrant, dynamic palette, reminiscent of a lively concert stage. The base is a deep, rich black, signifying the dimly lit ambiance of a music venue. Splashes of vivid red and orange sweep across the surface, capturing the intensity of stage lights. Intricate patterns of swirling lines and symbols in blues and whites mimic the energetic backdrop and musical elements. Hints of gold accentuate the edges, reflecting the ornate theater details.",
+    "descriptors": [
+      "vibrant",
+      "dynamic",
+      "musical",
+      "energetic",
+      "colorful",
+      "theatrical",
+      "lively"
+    ],
+    "image_url": "/static/images/egg_d9828f1a-0608-431d-894d-4480974309ce.png",
+    "created_at": "2025-08-02T17:45:07.766799",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "6037bf12-478a-43a0-89f4-ceb800311a45",
+    "description": "The egg is a soft moss green, reminiscent of thriving leaves backlit by sunlight. It features delicate vine-like patterns, curling and weaving organically across the surface, echoing the leafy, hanging plants. The egg is accented with subtle, translucent sections that mimic sun-dappled windows, allowing light to filter through in a way that illuminates its lush design. Tiny, whimsical skull motifs are intricately detailed around these windows, their hollow eyes filled with floral designs. The texture is smooth with matte areas and a few glossy highlights that resemble glass catching sun rays.",
+    "descriptors": [
+      "greenery",
+      "window light",
+      "botanical",
+      "skull motif",
+      "serene",
+      "whimsical",
+      "natural",
+      "cozy"
+    ],
+    "image_url": "/static/images/egg_825822d7-8fd1-45e2-853f-23a3c9b85cae.png",
+    "created_at": "2025-08-15T15:59:21.217564",
+    "status": "created",
+    "incubation_stage": 0
+  },
+  {
+    "id": "1881c5ae-b29c-474c-9c58-85fb64eeb5bc",
+    "description": "The egg is a pale, matte cream color, reminiscent of early morning sunlight streaming through a window. Delicate, vine-like patterns in soft greens wrap around the egg, mirroring the play of light and shadow from overhanging plants. The top of the egg features a subtle shimmering effect, evoking the texture of glass capturing sunlight. Small dark patches scattered across its surface resemble leaves or shadows, adding depth and intrigue. A thin band of translucent material encircles the egg, symbolizing the clear sky seen beyond the window's panes.",
+    "descriptors": [
+      "serene",
+      "organic",
+      "airy",
+      "sunlit",
+      "natural",
+      "tranquil",
+      "botanical"
+    ],
+    "image_url": "/static/images/egg_4c69f635-dadb-4778-9a45-d01e7b9bcc14.png",
+    "created_at": "2025-08-15T16:05:25.547809",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "b2a5401f-82b3-4485-ad67-8899cbb0b037",
+    "description": "The egg is an artistic representation echoing a serene and natural aesthetic. Its surface is a soft, pastel green reminiscent of lush foliage, speckled with delicate, vine-like patterns that wrap gracefully around its form. The texture is glossy yet subtly embossed, capturing light playfully like morning sunlight streaming through leaves. Small, abstract shapes in muted browns and whites resemble mushrooms, adding an earthy charm. A whimsical touch is provided by the faint outline of a skull nestled among the vines, incorporating elements of surprise and curiosity into the design.",
+    "descriptors": [
+      "greenery",
+      "serenity",
+      "natural light",
+      "earthy",
+      "playful patterns",
+      "whimsical",
+      "vines",
+      "cozy"
+    ],
+    "image_url": "/static/images/egg_049b57f8-560d-4192-8cc3-f22264b0776e.png",
+    "created_at": "2025-08-15T16:10:42.534404",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "a5a7fe58-515f-47ea-ba51-213af7fdf0f2",
+    "description": "The egg is adorned with a soft, muted green base, reflecting the verdant lushness of hanging plants. It features delicate vines etched across its surface, weaving intricate patterns reminiscent of climbing foliage. Small accents of gentle sunlight yellow shimmer through, evoking the feel of sunlight filtering through leaves. Along its midsection, there\u2019s a subtle, translucent window-like segment that captures the essence of peering through a bright, sunlit window, surrounded by an aura of calming shadows and soft browns, echoing the cozy atmosphere present in the image.",
+    "descriptors": [
+      "verdant",
+      "sunlit",
+      "cozy",
+      "natural",
+      "serene",
+      "patterned",
+      "earthy",
+      "intricate"
+    ],
+    "image_url": "/static/images/egg_226e0489-3df4-42ad-a025-e9c5d94b4a3e.png",
+    "created_at": "2025-08-15T16:19:15.938993",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "ca5ac01e-ed56-4e0d-a8ca-eeba351622ff",
+    "description": "The egg is a harmonious blend of natural and whimsical elements. It features a predominantly soft green hue reminiscent of fresh foliage, with subtle textures suggesting the veined patterns of leaves. Interwoven across its surface are dark, winding tendrils resembling trailing vines, adding a sense of organic movement. Light dapples the egg, suggesting sunlight filtering through a canopy, creating a warm, inviting glow. A playful element is present in the form of small, stylized mushroom motifs, their caps dotted with earthy tones. A whimsical skull design is subtly integrated, adding a mysterious charm. The overall effect is tranquil yet intriguing, celebrating the fusion of nature and fantasy.",
+    "descriptors": [
+      "natural",
+      "serene",
+      "whimsical",
+      "organic",
+      "leafy",
+      "mystical",
+      "warm",
+      "inviting"
+    ],
+    "image_url": "/static/images/egg_012cf661-539c-42b1-b84f-37fec9354541.png",
+    "created_at": "2025-08-15T16:23:51.951348",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "188438f1-225e-44bf-b605-e8ca2ffb33e8",
+    "description": "The egg embodies a serene yet eclectic ambiance, capturing the essence of a sunlit room. It features a smooth, matte surface painted in soft, earthy tones of sage green and creamy white, reflecting the leafy vines and gentle light filtering through a large window. Scattered across its surface are delicate, embossed patterns of hanging plants and whimsical skull motifs in muted greys, echoing the intriguing blend of natural and quirky elements. Its glossy finish adds a touch of elegance, resembling the glistening effect of sunlight on leaves.",
+    "descriptors": [
+      "sunlit",
+      "earthy",
+      "serene",
+      "natural",
+      "whimsical",
+      "leafy",
+      "eclectic",
+      "tranquil"
+    ],
+    "image_url": "/static/images/egg_d0131d81-ff26-449d-85b4-0d69a8adada2.png",
+    "created_at": "2025-08-15T16:26:12.734693",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "63bc9d22-7839-4b46-8259-e968844adca1",
+    "description": "The egg features a sleek, glossy surface combining jet black with patches of stark white, mirroring the smooth contrast seen in a tuxedo-like pattern. Dappled with subtle gray undertones that hint at the texture of short, fine fur, it has a refined finish. The egg's form is interrupted by soft, curving ridges, reminiscent of a gentle brow's furrow. It rests on a base mimicking colorful, vintage rug patterns, incorporating hints of navy blue and soft pink, intertwined in delicate floral motifs that evoke warmth and comfort.",
+    "descriptors": [
+      "contrasting",
+      "elegant",
+      "monochrome",
+      "textured",
+      "refined",
+      "playful",
+      "composed",
+      "cozy"
+    ],
+    "image_url": "/static/images/egg_355bc469-4fb3-4a93-8cf6-66fd5745e6df.png",
+    "created_at": "2025-08-15T16:29:30.051130",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "bd2ccf05-ed38-4d98-b8dd-a59e9ca2086a",
+    "description": "The egg features a glossy, smooth surface with a predominantly deep, rich black hue covering two-thirds of its body, representing the sleek coat. The top third transitions into a stark white, creating a striking contrast. This white area is sharply V-shaped, mimicking the unique markings found on the animal. A subtle texture of floral and abstract patterns in muted pinks, blues, and yellows wraps around the base, akin to the intricate designs of a vintage rug, adding an element of whimsy and classic charm. The overall aesthetic is elegant yet playful, with a harmonious blend of bold lines and soft patterns.",
+    "descriptors": [
+      "glossy",
+      "contrast",
+      "vintage",
+      "elegant",
+      "playful",
+      "textured",
+      "whimsy",
+      "bold"
+    ],
+    "image_url": "/static/images/egg_6aae58f7-cfbd-4ef5-993b-e5d51e671fee.png",
+    "created_at": "2025-08-15T16:33:45.755334",
+    "status": "created",
+    "incubation_stage": 0
+  },
+  {
+    "id": "07d5bc43-a785-48c0-b0ac-12365aa3d7a7",
+    "description": "The egg features a smooth, glossy surface with a striking black and white pattern reminiscent of a tuxedo. The black wraps around the lower half of the egg, while the top is predominantly white, accented with subtle, irregular black markings that mimic the texture of short fur. The egg has a slight sheen, hinting at a silky texture. Surrounding the central pattern are muted shades of cream and light grey, interspersed with small, abstract splashes of pink and blue, emulating the intricate patterns found in a vintage rug. The overall appearance is both elegant and whimsically textured, capturing a balance of simplicity and sophistication.",
+    "descriptors": [
+      "monochrome",
+      "elegant",
+      "textured",
+      "whimsical",
+      "vintage",
+      "contrast",
+      "playful"
+    ],
+    "image_url": "/static/images/egg_3569f643-43e0-41e6-beb2-3b0bb2da350f.png",
+    "created_at": "2025-08-15T16:35:25.735728",
+    "status": "hatched",
+    "incubation_stage": 0
+  }
+]

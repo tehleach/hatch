@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatch - AI Egg Creation & Incubation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <div class="header-left">
+                    <h1 class="title">
+                        <i class="fas fa-egg"></i>
+                        Hatch
+                    </h1>
+                    <p class="subtitle">Create, Incubate, and Hatch Magical Creatures</p>
+                </div>
+                <div class="header-right">
+                    <a href="{{ url_for('logout') }}" class="btn btn-secondary btn-sm">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Tab Navigation -->
+            <div class="tab-container">
+                <button class="tab-button active" data-tab="analyze">Generate from Image</button>
+                <button class="tab-button" data-tab="create">Custom Egg</button>
+                <button class="tab-button" data-tab="collection">My Collection</button>
+            </div>
+
+            <!-- Generate from Image Tab (Main Flow) -->
+            <div class="tab-content active" id="analyze-tab">
+                <div class="card">
+                    <h2><i class="fas fa-camera"></i> Generate Egg from Image</h2>
+                    <p class="card-subtitle">Upload an image and instantly create a magical egg inspired by it</p>
+                    
+                    <form id="analyze-image-form">
+                        <div class="form-group">
+                            <label for="image-upload">Choose Your Image</label>
+                            <div class="file-upload">
+                                <input type="file" id="image-upload" name="image" accept="image/*" required>
+                                <label for="image-upload" class="file-upload-label">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    <span id="upload-text">Click to upload an image</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="generate-btn">
+                            <i class="fas fa-sparkles"></i>
+                            Generate Egg
+                        </button>
+                    </form>
+                    
+                    <div id="analysis-result" class="analysis-result hidden">
+                        <h3>Generated Egg Details</h3>
+                        <div id="analysis-content"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Custom Egg Tab -->
+            <div class="tab-content" id="create-tab">
+                <div class="card">
+                    <h2><i class="fas fa-magic"></i> Create Custom Egg</h2>
+                    <p class="card-subtitle">Design your own egg with text descriptions</p>
+                    <form id="create-egg-form">
+                        <div class="form-group">
+                            <label for="description">Egg Description</label>
+                            <textarea 
+                                id="description" 
+                                name="description" 
+                                placeholder="Describe the egg you want to create... (e.g., 'A crystalline egg with swirling aurora patterns that pulse with inner light')"
+                                required
+                            ></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="descriptors">Descriptors (comma-separated)</label>
+                            <input 
+                                type="text" 
+                                id="descriptors" 
+                                name="descriptors" 
+                                placeholder="mystical, crystalline, aurora, ethereal, ancient"
+                                required
+                            >
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-sparkles"></i>
+                            Create Egg
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Collection Tab -->
+            <div class="tab-content" id="collection-tab">
+                <div class="card">
+                    <h2><i class="fas fa-dragon"></i> My Collection</h2>
+                    <div class="collection-controls">
+                        <button id="toggle-view-btn" class="btn btn-secondary">
+                            <i class="fas fa-expand"></i> Detailed View
+                        </button>
+                    </div>
+                    <div id="collection-container" class="collection-grid">
+                        <div class="loading">Loading your collection...</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Loading Overlay -->
+        <div id="loading-overlay" class="loading-overlay hidden">
+            <div class="loading-content">
+                <div class="spinner"></div>
+                <p id="loading-text">Creating your magical egg...</p>
+            </div>
+        </div>
+
+        <!-- Result Modal -->
+        <div id="result-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modal-content"></div>
+            </div>
+        </div>
+
+        <!-- Care Questionnaire Modal -->
+        <div id="care-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="care-questionnaire">
+                    <h2><i class="fas fa-heart"></i> Care for Your Egg</h2>
+                    <p class="care-subtitle">Tell us how you nurtured your egg to help it hatch into a unique creature!</p>
+                    
+                    <form id="care-form">
+                        <div id="care-questions"></div>
+                        
+                        <div class="care-actions">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-egg"></i>
+                                Hatch My Creature!
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Creature Result Modal -->
+        <div id="creature-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="creature-content"></div>
+            </div>
+        </div>
+
+        <!-- Creature Reveal Modal -->
+        <div id="reveal-modal" class="modal hidden">
+            <div class="modal-content reveal-content">
+                <div class="reveal-stage hidden" id="silhouette-stage">
+                    <h2 class="reveal-title">
+                        <i class="fas fa-question-circle"></i> 
+                        <span class="title-text">A New Life Appears...</span>
+                    </h2>
+                    <div class="creature-silhouette-container">
+                        <div class="creature-silhouette" id="creature-silhouette"></div>
+                    </div>
+                    <p class="reveal-subtitle">Your creature is taking its first breath...</p>
+                </div>
+                
+                <div class="reveal-stage hidden" id="creature-reveal-stage">
+                    <h2 class="reveal-title">
+                        <i class="fas fa-dragon"></i> 
+                        <span class="title-text">Meet Your Creature!</span>
+                    </h2>
+                    <div class="creature-name-display">
+                        <h3 id="creature-reveal-name" class="creature-name"></h3>
+                    </div>
+                    <div class="creature-reveal-container">
+                        <img id="creature-reveal-image" class="creature-reveal-image" alt="Your Creature">
+                    </div>
+                    <div id="creature-reveal-info" class="creature-reveal-info hidden">
+                        <div class="creature-sound-section">
+                            <h4><i class="fas fa-volume-up"></i> Creature Sound:</h4>
+                            <div class="sound-display">
+                                <p class="sound-text" id="reveal-sound-text"></p>
+                                <p class="voice-description" id="reveal-voice-desc"></p>
+                                <button class="btn btn-secondary" id="play-sound-btn">
+                                    <i class="fas fa-play"></i> Play Sound Again
+                                </button>
+                            </div>
+                        </div>
+                        <div class="care-history-section">
+                            <h4>Care History:</h4>
+                            <div class="care-details" id="reveal-care-details"></div>
+                        </div>
+                        <div class="reveal-actions">
+                            <button class="btn btn-primary" onclick="completeReveal()">
+                                <i class="fas fa-heart"></i> Meet My Creature!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Viewer Modal -->
+        <div id="image-viewer-modal" class="modal hidden">
+            <div class="modal-content image-viewer-content">
+                <span class="close">&times;</span>
+                <div class="image-viewer-container">
+                    <img id="full-size-image" src="" alt="Full Size Image" class="full-size-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html> 
