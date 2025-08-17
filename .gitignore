@@ -47,5 +47,5 @@ Thumbs.db
 # creatures_data.json
 
 # Static files (optional - you might want to keep these)
-# static/images/
-# static/audio/
+static/images/
+static/audio/

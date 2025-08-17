@@ -331,5 +331,93 @@
     "created_at": "2025-08-15T16:35:25.735728",
     "status": "hatched",
     "incubation_stage": 0
+  },
+  {
+    "id": "64857eca-8908-46f4-a38c-198c845fde83",
+    "description": "The egg is a tranquil blend of nature and whimsy. Its base color is a soft, sunny green, reminiscent of dappled sunlight streaming through leafy trees. Swirling vines and delicate leaves wrap around, their shadows playing upon the surface, evoking a sense of organic movement. Soft accents inspired by botanical elements add texture, resembling a raised pattern of delicate plant tendrils. To add a playful yet mysterious element, subtle designs of whimsical skull motifs are etched in contrasting hues, capturing a balance between nature and the ephemeral. A slight sheen gives the egg a polished look, reflecting light like the bright outdoors.",
+    "descriptors": [
+      "tranquil",
+      "nature-inspired",
+      "whimsical",
+      "organic",
+      "sunlit",
+      "textured",
+      "playful",
+      "mysterious"
+    ],
+    "image_url": "/static/images/egg_93a382fb-7346-4857-9373-4e07e8519d2e.png",
+    "created_at": "2025-08-16T10:33:51.238403",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "8150f0bd-bd86-40cd-b9b6-fded0e604f98",
+    "description": "The egg features a shimmering gold base that captures and reflects light, creating a sense of opulence and fortune. Bold red accents are painted on the top and sides, forming symmetrical patterns reminiscent of artistic brush strokes. A textured green band encrusted with tiny, sparkling particles wraps around the center, adding depth and vibrancy to the piece. The egg's surface is smooth, yet intricate with subtle engraved lines, giving it a traditional yet whimsical appearance. The combination of colors and textures embodies a sense of mystery and allure, echoing cultural motifs and an air of enigma.",
+    "descriptors": [
+      "golden",
+      "shimmering",
+      "festive",
+      "decorative",
+      "mysterious",
+      "whimsical",
+      "textured",
+      "traditional"
+    ],
+    "image_url": "/static/images/egg_fefde25e-373f-4e56-9e4a-3a1f03b6b034.png",
+    "created_at": "2025-08-16T10:35:52.981122",
+    "status": "created",
+    "incubation_stage": 0
+  },
+  {
+    "id": "b4befd9a-d02f-4f46-ba45-9b9975b6e9c0",
+    "description": "The egg is adorned with a shimmering gold surface that reflects light with a soft, metallic sheen. Bold, red accents are painted around its midsection and tip, echoing the vibrant red touches on ceremonial decorations. A segment of the egg sparkles with deep green glitter, creating a textured contrast against the smooth gold background. This intricate pattern is interspersed with delicate black lines, resembling stylized whiskers for depth and intrigue. The overall design captures a playfulness, yet maintains an aesthetic balance between opulence and artistry, reminiscent of traditional Eastern motifs.",
+    "descriptors": [
+      "golden",
+      "shimmering",
+      "red accents",
+      "glittering green",
+      "contrasting textures",
+      "ceremonial",
+      "playful",
+      "stylized"
+    ],
+    "image_url": "/static/images/egg_d88f82c9-3a75-4cc8-85cd-bb5152ce3f51.png",
+    "created_at": "2025-08-16T10:36:56.740903",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "d7466f81-a1c8-4df3-8467-3aa417972c2b",
+    "description": "The egg is smooth and glossy with a creamy, off-white base color. Abstract shapes resembling circles and curves in bright mustard yellow create a whimsical, smiling face pattern across the surface. Subtle, translucent layers of thin pink and beige tones add depth, reminiscent of overlapping deli meats, lending an organic texture to the egg. The overall aesthetic is cheerful and quirky, invoking a playful and lighthearted mood.",
+    "descriptors": [
+      "playful",
+      "quirky",
+      "cheerful",
+      "abstract",
+      "layered",
+      "organic",
+      "bright"
+    ],
+    "image_url": "/static/images/egg_b818b01c-25b8-411b-9463-9c35c41c867e.png",
+    "created_at": "2025-08-16T10:52:23.241742",
+    "status": "hatched",
+    "incubation_stage": 0
+  },
+  {
+    "id": "5133645e-4732-4041-b568-cbd24a40af97",
+    "description": "An egg adorned with a playful, pastel green base, reminiscent of sunlight streaming through a young leaf. Scattered across its surface, whimsical banana graphics don jaunty little hats, embodying a lively, cartoonish flair. The texture is smooth with a slight matte finish, evoking a sense of youthful fun and carefreeness. The overall appearance is bright and cheerful, punctuated with pops of soft yellow and hints of black, bringing a touch of innocence and joy.",
+    "descriptors": [
+      "playful",
+      "cheerful",
+      "cartoonish",
+      "pastel",
+      "whimsical",
+      "youthful",
+      "fun"
+    ],
+    "image_url": "/static/images/egg_067a2f1a-9a7b-4c7c-b3f5-5186326f9084.png",
+    "created_at": "2025-08-16T11:36:57.188125",
+    "status": "hatched",
+    "incubation_stage": 0
   }
 ]

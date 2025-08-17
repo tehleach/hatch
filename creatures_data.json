@@ -412,5 +412,103 @@
       "playful"
     ],
     "egg_description": "The egg features a smooth, glossy surface with a striking black and white pattern reminiscent of a tuxedo. The black wraps around the lower half of the egg, while the top is predominantly white, accented with subtle, irregular black markings that mimic the texture of short fur. The egg has a slight sheen, hinting at a silky texture. Surrounding the central pattern are muted shades of cream and light grey, interspersed with small, abstract splashes of pink and blue, emulating the intricate patterns found in a vintage rug. The overall appearance is both elegant and whimsically textured, capturing a balance of simplicity and sophistication."
+  },
+  {
+    "id": "cc4afef6-579d-4b00-8ad2-b1fae0f50198",
+    "name": "Soleil Sprite",
+    "egg_id": "64857eca-8908-46f4-a38c-198c845fde83",
+    "image_url": "/static/images/creature_8d3a7aa5-2a82-4f2c-ae39-5ec7b5436845.png",
+    "sound_text": "yaaaa",
+    "sound_name": "yaaaa_sound",
+    "voice_description": "The baby creature's voice is high-pitched and slow, evoking a sense of tranquility and curiosity. It has a soft, melodic quality with a touch of whimsy, reminiscent of nature's gentle sounds.",
+    "audio_url": "/static/audio/creature_sound_cc4afef6-579d-4b00-8ad2-b1fae0f50198.mp3",
+    "care_responses": {
+      "favorite_spot": "window"
+    },
+    "hatched_at": "2025-08-16T10:34:17.421731",
+    "egg_traits": [
+      "tranquil",
+      "nature-inspired",
+      "whimsical",
+      "organic",
+      "sunlit",
+      "textured",
+      "playful",
+      "mysterious"
+    ],
+    "egg_description": "The egg is a tranquil blend of nature and whimsy. Its base color is a soft, sunny green, reminiscent of dappled sunlight streaming through leafy trees. Swirling vines and delicate leaves wrap around, their shadows playing upon the surface, evoking a sense of organic movement. Soft accents inspired by botanical elements add texture, resembling a raised pattern of delicate plant tendrils. To add a playful yet mysterious element, subtle designs of whimsical skull motifs are etched in contrasting hues, capturing a balance between nature and the ephemeral. A slight sheen gives the egg a polished look, reflecting light like the bright outdoors."
+  },
+  {
+    "id": "63192ca9-8ccb-4cc4-9ea7-b981befb8d34",
+    "name": "Glitterdrake Hatchling",
+    "egg_id": "b4befd9a-d02f-4f46-ba45-9b9975b6e9c0",
+    "image_url": "/static/images/creature_89ab878e-c9fb-4bf2-a868-3a7cd8f3e06e.png",
+    "sound_text": "blorp",
+    "sound_name": "blorp_sound",
+    "voice_description": "The baby creature's voice is high-pitched and melodic, with a playful and excited tone, like a gentle sparkle of laughter. It sounds soft and whimsical, echoing the enchanting qualities of its shimmering and ceremonial egg.",
+    "audio_url": "/static/audio/creature_sound_63192ca9-8ccb-4cc4-9ea7-b981befb8d34.mp3",
+    "care_responses": {
+      "favorite_thing": "it looks like a dragon"
+    },
+    "hatched_at": "2025-08-16T10:37:39.031251",
+    "egg_traits": [
+      "golden",
+      "shimmering",
+      "red accents",
+      "glittering green",
+      "contrasting textures",
+      "ceremonial",
+      "playful",
+      "stylized"
+    ],
+    "egg_description": "The egg is adorned with a shimmering gold surface that reflects light with a soft, metallic sheen. Bold, red accents are painted around its midsection and tip, echoing the vibrant red touches on ceremonial decorations. A segment of the egg sparkles with deep green glitter, creating a textured contrast against the smooth gold background. This intricate pattern is interspersed with delicate black lines, resembling stylized whiskers for depth and intrigue. The overall design captures a playfulness, yet maintains an aesthetic balance between opulence and artistry, reminiscent of traditional Eastern motifs."
+  },
+  {
+    "id": "6d0311c4-336e-4e1d-b04f-40d5b9ed0c34",
+    "name": "Whisperling Tasty Boi",
+    "egg_id": "d7466f81-a1c8-4df3-8467-3aa417972c2b",
+    "image_url": "/static/images/creature_554ea3a8-3ba2-4587-b754-aab37a193081.png",
+    "sound_text": "woof",
+    "sound_name": "woof_sound",
+    "voice_description": "The baby creature's voice is high-pitched and fast, filled with playful and excited emotions. It has a melodic, whispery quality, embodying a cheerful and quirky charm.",
+    "audio_url": "/static/audio/creature_sound_6d0311c4-336e-4e1d-b04f-40d5b9ed0c34.mp3",
+    "care_responses": {
+      "whispers": "you are my sweet tasty boi"
+    },
+    "hatched_at": "2025-08-16T10:59:36.040605",
+    "egg_traits": [
+      "playful",
+      "quirky",
+      "cheerful",
+      "abstract",
+      "layered",
+      "organic",
+      "bright"
+    ],
+    "egg_description": "The egg is smooth and glossy with a creamy, off-white base color. Abstract shapes resembling circles and curves in bright mustard yellow create a whimsical, smiling face pattern across the surface. Subtle, translucent layers of thin pink and beige tones add depth, reminiscent of overlapping deli meats, lending an organic texture to the egg. The overall aesthetic is cheerful and quirky, invoking a playful and lighthearted mood."
+  },
+  {
+    "id": "a79daf1f-c978-49d1-93b7-905c3edbbdec",
+    "name": "Puffaroo",
+    "egg_id": "5133645e-4732-4041-b568-cbd24a40af97",
+    "image_url": "/static/images/creature_ed0f12fb-b72c-4d39-a625-f0af94290816.png",
+    "sound_text": "waddle",
+    "sound_name": "waddle_sound",
+    "voice_description": "The voice of this baby creature is high-pitched and fast, conveying an excited and cheerful emotion with a melodic quality. It's playful and whimsical, perfectly capturing the essence of a joyful, cartoonish creature.",
+    "audio_url": "/static/audio/creature_sound_a79daf1f-c978-49d1-93b7-905c3edbbdec.mp3",
+    "care_responses": {
+      "comfort": "play pink pony club for it"
+    },
+    "hatched_at": "2025-08-16T11:37:37.557642",
+    "egg_traits": [
+      "playful",
+      "cheerful",
+      "cartoonish",
+      "pastel",
+      "whimsical",
+      "youthful",
+      "fun"
+    ],
+    "egg_description": "An egg adorned with a playful, pastel green base, reminiscent of sunlight streaming through a young leaf. Scattered across its surface, whimsical banana graphics don jaunty little hats, embodying a lively, cartoonish flair. The texture is smooth with a slight matte finish, evoking a sense of youthful fun and carefreeness. The overall appearance is bright and cheerful, punctuated with pops of soft yellow and hints of black, bringing a touch of innocence and joy."
   }
 ]
